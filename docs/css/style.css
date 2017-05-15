@@ -277,8 +277,9 @@ footer h2 {
 		margin-bottom: 2em; 
 		margin-left: auto; 
 		margin-right: auto; 
-		width: 85%; height: 85%;
+		
 }
+.music-box img {width: 50%; height: 50%;}
 
 .spotify-embeds {
   width: 100%;
@@ -458,7 +459,7 @@ header {
 		margin-bottom: .6em; 
 		margin-left: auto; 
 		margin-right: auto; 
-		width: 90%; height: 90%;
+		width: 80%; height: 80%;
 }
 p {font-size:18px;}
 }
@@ -520,7 +521,7 @@ margin-top: -10px;
 		margin-bottom: 2em; 
 		margin-left: auto; 
 		margin-right: auto; 
-		width: 100%; height: 100%;
+		width: 85%; height: 85%;
 }
 
 .head1 {
