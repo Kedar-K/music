@@ -19,22 +19,22 @@ nav menu{width:100%;float:left;}
 nav li{list-style-type:none; float:left; width:117px; text-align:center; line-height:25px; letter-spacing:0.08125em;}
 nav li a{font-family:'Raleway', Arial, sans-serif;font-weight:400;font-size:1.155em; padding:5px 0px 0px 8px; color:#000000;text-decoration:bold; display:block;}
 
-nav li a:hover{ text-decoration:underline; color: #68bede;}
+nav li a:hover{ text-decoration:underline; color: deeppink;}
 
 
 .highlight a{font-weight:400;color:#ed4213;text-decoration:none;}
 
 .fa-instagram{color:#000000;}
-.fa-instagram:hover{color:#68bede;}
+.fa-instagram:hover{color:deeppink;}
 
 .fa-twitter{color:#000000;}
-.fa-twitter:hover{color:#68bede;}
+.fa-twitter:hover{color:deeppink;}
 
 .fa-youtube{color:#000000;}
-.fa-youtube:hover{color:#68bede;}
+.fa-youtube:hover{color:deeppink;}
 
 .fa-newspaper-o{color:#000000;}
-.fa-newspaper-o:hover{color:#68bede;}
+.fa-newspaper-o:hover{color:deeppink;}
 
 .newsletter{float:right;padding-left:2em;width:auto;}
 .insta{float:right;padding-left:2em;width:auto;}
@@ -107,9 +107,9 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 	}
   
     .box-titled a:link {color:#ed4213; text-decoration: none;}
-	.box-titled a:hover {color:#68bede; text-decoration: underline;}
-	.box-titled a:active {color:#68bede; text-decoration: underline;}
-	.box-titled a:visited {color:#68bede; text-decoration: none;}
+	.box-titled a:hover {color:deeppink; text-decoration: underline;}
+	.box-titled a:active {color:deeppink; text-decoration: underline;}
+	.box-titled a:visited {color:deeppink; text-decoration: none;}
 
 
 /* controls the spotify player */
@@ -182,8 +182,8 @@ p {
 
 p a:link {color:#ed4213;}
 p a:visited {color:#ed4213;}
-p a:hover {color:#68bede; text-decoration:underline;}
-p a:active {color:#68bede;; text-decoration:underline;}
+p a:hover {color:deeppink; text-decoration:underline;}
+p a:active {color:deeppink;; text-decoration:underline;}
 
 .centerinfo {
 			text-align: center; 
@@ -213,8 +213,8 @@ footer h2 {
 
 		footer a:link {color:white; text-decoration: underline;}
 		footer a:visited {color:#ed4213; text-decoration: underline;}
-		footer a:hover {color:#68bede; text-decoration: underline;}
-footer a:active {color:#68bede; text-decoration: underline;}
+		footer a:hover {color:deeppink; text-decoration: underline;}
+footer a:active {color:deeppink; text-decoration: underline;}
 
  .socialfooter{padding-left:0em;padding-top:1em;width:auto;}
 
