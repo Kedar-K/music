@@ -211,10 +211,10 @@ footer h2 {
 			letter-spacing:1.4px
 		}
 
-		footer a:link {color:white; text-decoration: underline;}
+		footer a:link {color:#ed4213; text-decoration: underline;}
 		footer a:visited {color:#ed4213; text-decoration: underline;}
 		footer a:hover {color:deeppink; text-decoration: underline;}
-footer a:active {color:deeppink; text-decoration: underline;}
+        footer a:active {color:deeppink; text-decoration: underline;}
 
  .socialfooter{padding-left:0em;padding-top:1em;width:auto;}
 
