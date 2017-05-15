@@ -1,12 +1,13 @@
 @charset "UTF-8";article, section, aside, hgroup, nav, header, footer, figure, figcaption{display:block;}
 
+body{font-family:'Raleway', Arial, sans-serif; }
 
 #wrapper{width:100%;}
 
-header{width:100%; position:relative; }
+header{width:100%; position:relative;}
 
 
-#logo {float:left;margin-left:1.8em;padding-top:10px;}
+#logo {float:left;margin-left:2.1em;padding-top:10px;}
 
 #logo img{max-width:100%;margin:auto;}
 
@@ -17,35 +18,47 @@ nav{width:98.125%; position:absolute; margin-top:80px;height:35px;z-index:10;}
 nav menu{width:100%;float:left;}
 
 nav li{list-style-type:none; float:left; width:117px; text-align:center; line-height:25px; letter-spacing:0.08125em;}
-nav li a{font-family:'Raleway', Arial, sans-serif;font-weight:400;font-size:1.155em; padding:5px 0px 0px 8px; color:#000000;text-decoration:bold; display:block;}
+nav li a{font-family:'Raleway', Arial, sans-serif;font-weight:400;font-size:1.155em; padding:5px 0px 0px 8px; color:#000000;text-decoration:none; display:block;}
 
-nav li a:hover{ text-decoration:underline; color: #68bede;}
+nav li a:hover{ text-decoration:underline; color: deeppink;}
 
 
 .highlight a{font-weight:400;color:#ed4213;text-decoration:none;}
 
 .fa-instagram{color:#000000;}
-.fa-instagram:hover{color:#68bede;}
+.fa-instagram:hover{color:#f94514;}
 
 .fa-twitter{color:#000000;}
-.fa-twitter:hover{color:#68bede;}
+.fa-twitter:hover{color:#f94514;}
 
 .fa-youtube{color:#000000;}
-.fa-youtube:hover{color:#68bede;}
+.fa-youtube:hover{color:#f94514;}
 
 .fa-newspaper-o{color:#000000;}
-.fa-newspaper-o:hover{color:#68bede;}
+.fa-newspaper-o:hover{color:#f94514;}
 
 .newsletter{float:right;padding-left:2em;width:auto;}
 .insta{float:right;padding-left:2em;width:auto;}
 .twitter{float:right;padding-left:2em;width:auto;}
 .youtube{float:right;padding-left:2em;width:auto;}
 
-#content{  padding-top:2em;padding-right:0em;padding-bottom:2em;padding-left:0em;}
+#content{ 
+		padding-top:2em; 
+		padding-right:0em; 
+		padding-bottom:2em; 
+		padding-left:0em; 
+}
 
-.img-responsive{ width:100%;height:100%; margin-top:6.5em;}
+.img-responsive { 
+		width:100%;
+		height:100%; 
+		margin-top:6.5em;
+}
 	
-.jumbotron {
+.jumbotron {padding:50px;
+		margin-bottom:10px;
+		color:#fff; 
+		background-color: #8E1900;
 }
 
 .row {
@@ -55,19 +68,23 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 		padding:50px;
 		margin-bottom:10px;
 		color:#fff; 
-		background-color: black;
+		background-color: #3B7B93;
 }
 
 .row-wrap h1 {
-		font-size:40px;
+		font-size:36px;
 		font-family:'Raleway', Arial, sans-serif;
 		font-weight:500;
 		color:#fff;
 		text-align:center;
 		letter-spacing:3px; 
-		margin-bottom:25px;
+		margin-bottom:30px;
 	}
-
+#white-background {
+	background-color:#fff;
+	margin: 0px;
+	padding: 0px;
+}
 
 
 /* controls in the tour, videos and  page */
@@ -78,7 +95,6 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-bottom: 1.3em;
-
 }
 
 	.music-box p {
@@ -91,10 +107,6 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 		
 	}
  
- 	.music-box img {
- 		width: 40%;
- 		height:40%;
- 	}
 /* controls the text in the music page */
 	.box-titled h2 {
 		font-size:16px;
@@ -107,9 +119,9 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 	}
   
     .box-titled a:link {color:#ed4213; text-decoration: none;}
-	.box-titled a:hover {color:#68bede; text-decoration: underline;}
-	.box-titled a:active {color:#68bede; text-decoration: underline;}
-	.box-titled a:visited {color:#68bede; text-decoration: none;}
+	.box-titled a:hover {color:deeppink; text-decoration: underline;}
+	.box-titled a:active {color:deeppink; text-decoration: underline;}
+	.box-titled a:visited {color:deeppink; text-decoration: none;}
 
 
 /* controls the spotify player */
@@ -119,7 +131,7 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 
 .spotify-embeds {
   width: 100%;
-  padding: 0px 200px;  
+  padding: 0px 150px;  
 }
 
 .spotify-embed {
@@ -145,7 +157,7 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 
 /* controls info text */
 
-.head1 {
+#head1 {
 	text-align:left; font-size:.9em;
 	font-family:'Raleway', Arial, sans-serif;
 	font-weight:300;
@@ -170,7 +182,7 @@ nav li a:hover{ text-decoration:underline; color: #68bede;}
 
 .max-column {
 			padding: 0 40px;
-			margin-top: 105px;
+			margin-top: 100px;
 	}
 
 p { 
@@ -182,8 +194,8 @@ p {
 
 p a:link {color:#ed4213;}
 p a:visited {color:#ed4213;}
-p a:hover {color:#68bede; text-decoration:underline;}
-p a:active {color:#68bede;; text-decoration:underline;}
+p a:hover {color:deeppink; text-decoration:none;}
+p a:active {color:deeppink;}
 
 .centerinfo {
 			text-align: center; 
@@ -211,10 +223,6 @@ footer h2 {
 			letter-spacing:1.4px
 		}
 
-		footer a:link {color:white; text-decoration: underline;}
-		footer a:visited {color:#ed4213; text-decoration: underline;}
-		footer a:hover {color:#68bede; text-decoration: underline;}
-footer a:active {color:#68bede; text-decoration: underline;}
 
  .socialfooter{padding-left:0em;padding-top:1em;width:auto;}
 
@@ -223,13 +231,9 @@ footer a:active {color:#68bede; text-decoration: underline;}
 
 @media screen and (max-width:991px) {
 
-.js nav{display:none;}
+.js nav{display:block;}
 
-.js .slicknav_menu{display:block;}
-
-#logo {float:left;margin-left:1em;padding-top:6px;}
-
-#logo img{max-width:90%;margin:auto;}
+.js .slicknav_menu{display:none;}
 
 .newsletter{float:left;padding:0px;width:auto;}
 .insta{float:left;padding:0px;width:auto;}
@@ -240,9 +244,6 @@ footer a:active {color:#68bede; text-decoration: underline;}
 .fa-instagram{color:#FFF;}
 .fa-twitter{color:#FFF;}
 .fa-youtube{color:#FFF;}
-.fa-heartbeat{color:#FFF;}
-
-
 
 
 #content {
@@ -252,128 +253,66 @@ footer a:active {color:#68bede; text-decoration: underline;}
 		padding-left:1em;
 }
 
-.img-responsive{width:100%;height:100%; margin-top:0em;}
-
-.row { 
-	margin-top:-25px;
-	margin-bottom:0.5em;
+.img-responsive { 
+		width:100%;
+		height:100%; 
+		margin-top:0em;
 }
 
-.jumbotron {
-		margin:-10px 0px -10px 0px;
-	}
-
-.row-wrap {
-		padding:40px;
-	}
+.row { 
+		margin-top:-25px;
+		margin-bottom:0.5em;
+}
 
 .row-wrap h1 {
 		font-size:35px;
+
 	}
+
+
+
+
+
 
 /* controls in the tour, videos and  page */
 .music-box {
 		margin-bottom: 2em; 
 		margin-left: auto; 
 		margin-right: auto; 
-		width: 100%; height: 100%;
-}
-
-.spotify-embeds {
-  width: 100%;
-  padding: 0px 100px;  
-}
-.max-column {
-			padding: 0 40px;
-			margin-top: 5px;
-	}
-
-footer {
-		clear:both;
-		width:100%;
-		height:275px;
-		background-color: #00000; 
-		padding:40px;
-		position:absolute;
-	}
-
-footer h2 {
-		font-size:1em;
-		color:#f94514;
-		text-align:center;
-		
-		letter-spacing:1.4px}
-
-
-
-}
-
-@media screen and (max-width:767px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-
-
-	#logo {float:left;margin-left:1em;padding-top:4px;}
-
-#logo img{max-width:90%;margin:auto;}
-
-.head1{
-		font-size:.8em;
-		font-family:'Raleway', Arial, sans-serif;
-		font-weight:200;
-		color:#2b2a25;
-		text-align:center;
-		letter-spacing:1.7px
+		width: 60%; height: 60%;
 }
 
 
-.js nav{ 
-		display:none;
-	}
+h2 footer{clear:both;width:100%;height:275px;background-color:#000;position:absolute;}
+footer h2{font-size:1em;color:#f94514;text-align:center;padding-top:25px;letter-spacing:1.4px}
 
-.js .slicknav_menu{
-		display:block;
-		text-align:left;
-	}
-.row-wrap h1 {
-		font-size:30px;
-	}
-	.col-sm-6 {
-		padding:10px;
-	}
 
-	.col-md-4 {
-		padding: 10px;
-		height:75%;
-		width:75%;
-		margin-left:auto;
-		margin-right:auto;
-	}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 
-	.spotify-embeds {
-  width: 100%;
-  padding: 0px 50px;  
-}
 
+@media (min-width:575px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+
+
+#logo {width:250px;height:55px; margin-bottom: 5px;}
+.head1{font-size:.8em;font-family:'Raleway', Arial, sans-serif;font-weight:200;color:#2b2a25;text-align:center;letter-spacing:1.7px}
 .col-sm-12 h2{font-size:1.5em;font-family:'Raleway', Arial, sans-serif;font-weight:500;color:#FFF;text-align:center;letter-spacing:3px;padding-bottom:0em;}
-
 .col-sm-12 h3{font-size:1.5em;font-family:'Raleway', Arial, sans-serif;font-weight:500;color:#FFF;text-align:center;letter-spacing:3px;padding-bottom:0em;width:100%;height:100%;}
-
 .col-xs-12{padding-top:20px;}
-
 
 .row{ margin-top:-10px; margin-bottom:15px; }
 
 .max-column {
-padding: -30px 30px;
-margin-top: -10px;
+padding: 0 30px;
+margin-top: 0px;
 }
 
 /* controls in the tour, videos and  page */
 
-.music-box img {
-		margin-bottom: .6em; 
+.music-box {
+		margin-bottom: 2em; 
 		margin-left: auto; 
 		margin-right: auto; 
-		width: 60%; height: 60%;
+		width: 100%; height: 100%;
 }
 
 .video-container {
@@ -392,36 +331,51 @@ margin-top: -10px;
 	height:100%;
 }
 
-p {font-size:18px;}
+
 
 .head1 {
-	    font-size:16px;
+	    font-size:1em;
 	    font-family:'Raleway', Arial, sans-serif;
 	    font-weight:300;
-	    color:white;
+	    color:#f94514;
 	    text-align:center;
 	    letter-spacing:1.4px
 	}
 #mobile-nav{}
 
-
+footer {
+		clear:both;
+		width:100%;
+		height:265px;
+		position:absolute;
+		background-color:#15091d;
+	}
 footer h2{
 		font-size:.9em;
 	}
 
-}
+.js nav{ 
+		display:none;
+	}
 
-@media screen and (max-width:575px)  { /* smartphones, Android phones, landscape iPhone */ 
+.js .slicknav_menu{
+		display:block;
+		text-align:left;
+	}
+
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
 
 	
 header {
 		align-content:center;
 	}
 
-
-#logo {float:left;margin-left:.6em;padding-top:10px; width:75%; }
-
-#logo img{max-width:90%;margin:auto;}
+#logo {
+		width:250px;
+		height:55px;
+		background-image:url(../images/logo.png)
+		background-size:250px 75px;
+	}
 
 .head1 {
 		font-size:.9em;
@@ -429,37 +383,22 @@ header {
 		font-weight:300;
 		color: white;
 	}
-	.col-md-4 {
-		padding: 10px;
-		height:80%;
-		width:80%;
-		margin-left:auto;
-		margin-right:auto;
-	}
-		.col-md-6 {
-		padding: 10px;
-		height:80%;
-		width:80%;
-		margin-left:auto;
-		margin-right:auto;
-	}
 
 
-.music-box img {
-		margin-bottom: .6em; 
-		margin-left: auto; 
-		margin-right: auto; 
-		width: 90%; height: 90%;
-}
-p {font-size:18px;}
+
+#single-song {
+		width:70%;
+		
 }
 
-@media screen and (max-width:480px) {
 
-#logo {float:left;margin-left:.6em;padding-top:10px; width:70%;}
+@media screen and (min-width:320px) (max-width:400px) {}
 
-#logo img{max-width:100%;}
-
+#logo { 
+		width:70%;
+		height:70%;
+		margin-left: 15px;
+	}
 
 .col-md-4 {
 		padding: 10px;
@@ -470,10 +409,7 @@ p {font-size:18px;}
 		margin-top: 10px;
 
 	}
-	.col-sm-12 p{
-
-		font-size: 16px;
-	}
+	
 
 .row-wrap h1 {
 		font-size:25px;
@@ -484,10 +420,6 @@ p {font-size:18px;}
 		font-size:15px;
 
 	}
-	.max-column {
-padding: 0px 0px;
-margin-top: -10px;
-}
 
 
 .row-wrap img {
@@ -501,25 +433,10 @@ margin-top: -10px;
     	padding: 0px 0px; 
 }
 
-.music-box {
-		margin-bottom: 2em; 
-		margin-left: auto; 
-		margin-right: auto; 
-		width: 100%; height: 100%;
-}
-
-.head1 {
-		font-size:.9em;
-		font-family:'Raleway', Arial, sans-serif;
-		font-weight:300;
-		color: white;
-	}
-
 header	{
 		align-content:left;
-	} }
+	}
 
-@media screen and (max-width:320px) {
 
-p {font-size:18px;}
-}
+
+

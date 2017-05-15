@@ -4936,15 +4936,9 @@ a.badge:focus, a.badge:hover {
   background-color: #c9302c;
 }
 
-.jumbotron {
-padding:5px 15px;margin-bottom:10px;color:#fff; background-color: black;
-}
 
-@media (min-width: 576px) {
-  .jumbotron {
-    padding: 3rem 2rem;
-  }
-}
+
+
 
 .jumbotron-hr {
   border-top-color: #d0d5d8;
