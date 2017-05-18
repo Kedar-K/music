@@ -220,6 +220,7 @@ footer h2 {
 
 .whiteiconcolor {color:#FFF;}
 
+/* ---Media Query--- */
 
 @media screen and (max-width:991px) {
 
@@ -538,4 +539,25 @@ header	{
 @media screen and (max-width:320px) {
 
 p {font-size:18px;}
+}
+
+@media screen and (max-width: 540px) , screen and (max-height: 960px) {
+	img {
+              	width: 100%;
+    		height: auto;
+	    }
+  	.col-md-4 {
+		padding: 10px;
+		width:100%;
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.col-md-6 {
+		padding: 10px;
+		width:100%;
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
 }
